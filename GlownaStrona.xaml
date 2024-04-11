@@ -25,16 +25,21 @@
         <StackPanel Orientation="Horizontal">
             <StackPanel>
                 <StackPanel  Background="HotPink" Width="400"  Height="250" >
-
+                    
                 </StackPanel>
-                <StackPanel  Background="Aqua" Width="400" Height="317" ></StackPanel>
+                <StackPanel  Background="Aqua" Width="400" Height="250">
+                    <Image Source="C:\Users\4TP1\source\repos\Gielda_Samochodowa\zdjecia\auto.png" Width="225" HorizontalAlignment="Left" Margin="10px"/>
+                    
+                </StackPanel>
             </StackPanel>
             
             <StackPanel>
                 <StackPanel  Background="HotPink" Width="400"  Height="250" >
 
                 </StackPanel>
-                <StackPanel  Background="Aqua" Width="400" Height="314" ></StackPanel>
+                <StackPanel  Background="Aqua" Width="400" Height="250" >
+                    
+                </StackPanel>
 
             </StackPanel>
 

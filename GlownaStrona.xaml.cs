@@ -17,11 +17,20 @@ namespace Gielda_Samochodowa
     /// <summary>
     /// Logika interakcji dla klasy GlownaStrona.xaml
     /// </summary>
+    /// 
     public partial class GlownaStrona : Window
     {
+        public List<Model> ListaSamochodow { get; private set; }
         public GlownaStrona()
         {
             InitializeComponent();
+        }
+
+        public void incjujSamochody()
+        {
+            ListaSamochodow = new List<Model>();
+
+            Model samochod1 = new Model("Opel", "Corsa", 2016, "Szary", 220, );
         }
     }
 }
